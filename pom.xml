@@ -11,6 +11,7 @@
 	<groupId>com.simplon</groupId>
 	<artifactId>theme_hospital</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
 	<name>theme_hospital</name>
 	<description>hospital project for Spring Boot</description>
 	<properties>
@@ -70,4 +71,10 @@
 		</plugins>
 	</build>
 
+	<modules>
+		<module>user</module>
+		<module>sejour</module>
+		<module>lieux</module>
+		<module>patient</module>
+	</modules>
 </project>
